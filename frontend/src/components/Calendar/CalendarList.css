@@ -1,0 +1,9 @@
+.calendar-list {
+  padding: 16px;
+}
+
+.calendar-item {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+}

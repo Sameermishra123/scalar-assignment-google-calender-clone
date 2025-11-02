@@ -1,0 +1,56 @@
+.day-view {
+  display: flex;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.day-time-column {
+  width: 80px;
+  flex-shrink: 0;
+  background-color: white;
+}
+
+.day-time-header {
+  height: 56px;
+  border-bottom: 1px solid #dadce0;
+  padding: 8px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background-color: white;
+}
+
+.day-time-slot {
+  height: 64px;
+  border-bottom: 1px solid #dadce0;
+  font-size: 12px;
+  color: #5f6368;
+  padding: 4px 8px;
+  padding-top: 4px;
+}
+
+.day-content {
+  flex: 1;
+  position: relative;
+}
+
+.day-hour-slot {
+  height: 64px;
+  border-bottom: 1px solid #dadce0;
+  cursor: pointer;
+}
+
+.day-hour-slot:hover {
+  background-color: #f8f9fa;
+}
+
+.day-event {
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+  z-index: 10;
+}
